@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_VikasHaritwal93_rules_python_1701965599108-pr-trigger-input-set
+  identifier: Build_VikasHaritwal93_rules_python_1701965599108prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_VikasHaritwal93_rules_python_1701965599108
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
